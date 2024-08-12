@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Device is Hacked!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+            color: red;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            font-size: 24px;
+            animation: glitch 1s infinite;
+        }
+        @keyframes glitch {
+            0% { transform: translate(0, 0); }
+            25% { transform: translate(-5px, -5px); }
+            50% { transform: translate(5px, 5px); }
+            75% { transform: translate(-5px, 5px); }
+            100% { transform: translate(0, 0); }
+        }
+        .message {
+            margin-top: 20%;
+            font-size: 48px;
+            font-weight: bold;
+            color: red;
+            text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red;
+        }
+        .error {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        WARNING: YOUR DEVICE IS HACKED!
+    </div>
+    <div class="error">
+        SYSTEM ERROR: 0xDEADBEEF<br>
+        SECURITY BREACH DETECTED<br>
+        CONTACT SUPPORT IMMEDIATELY
+    </div>
+</body>
+</html>
+
